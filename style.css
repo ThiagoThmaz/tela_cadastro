@@ -1,0 +1,100 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+     background-image: url(https://www.fundacaoroge.org.br/hubfs/14%20Boas%20pr%C3%A1ticas%20no%20transporte%20de%20bovinos.png);
+     background-size: cover;
+     margin: 0;
+    
+}
+/* box */
+
+.box{
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+ 
+    
+
+}
+
+.box .home{
+    color: #e9ebea;
+}
+
+.box .home ul{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+
+.box .home li{
+    list-style: none;
+}
+
+.box .home h1{
+    margin: auto;
+    text-align: center;
+}
+
+.box .home ul li{
+    font-size: larger;
+}
+
+/*container */
+.container{
+    background-color: #e9ebea;
+    width: 250px;
+    border-radius: 5px;
+    margin: 100px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.container .formulario{
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+.container .formulario2{
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.container .formulario input{
+    border: 2px ;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+    
+    
+}
+
+.formulario2 input{
+    border: 2px ;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.botao{
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
